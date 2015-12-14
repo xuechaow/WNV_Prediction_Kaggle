@@ -1,6 +1,6 @@
 % K-means implementation of Final_Project.
 
-indice_train = kmeans(Train_DataCopy(:,[5 6]),20);
+[indice_train,centers] = kmeans(Train_DataCopy(:,[5 6]),20);
 
 P_presence = zeros(2,20);
 
